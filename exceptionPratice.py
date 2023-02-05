@@ -33,4 +33,6 @@ except ValueError:
     print("잘못된 값을 입력하였습니다. 한 자리 숫자만 입력하세요")
 except BignumberError as err: #리턴값 받아오기
     print("에러가 발생하였습니다. 한자리 숫자만 입력하세요.")
-    print(err)            
+    print(err)
+finally: #무조건 끝날떄 실행/ 강제종료 맏
+    print("계산기를 이용해 주서 감사합니다")    
