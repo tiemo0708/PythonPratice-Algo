@@ -23,3 +23,9 @@ for plan in plans:
     x, y = nx, ny
 
 print(x, y)
+
+#입력
+#5
+#R R R U D D
+#출력
+#3 4
